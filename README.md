@@ -27,7 +27,7 @@ func main() {
 [goisimg](https://github.com/ferhatelmas/goisimg)
 
 # Why
-This package is inspired by [sindresorhus](https://www.npmjs.com/package/is-video) npm module to check if filepath is a video file.
+This package is inspired by [is-video](https://www.npmjs.com/package/is-video) npm module to check if filepath is a video file.
 
 # License
 MIT © [Shamsher Ansari](https://github.com/shamsher31)
