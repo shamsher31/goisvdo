@@ -1,13 +1,13 @@
 # goisvdo
 Check if filepath is a video file
 
-# How to install
-<pre>
+### How to install
+```go
 go get github.com/shamsher31/goisvdo
-</pre>
+```
 
-# How to use
-<pre>
+### How to use
+```go
 package main
 
 import (
@@ -16,18 +16,33 @@ import (
 )
 
 func main() {
-	fmt.Println(video.Is("./golang.mp4"))
-  // true
+   fmt.Println(video.Is("./golang.mp4"))
+   // true
 }
-</pre>
+```
+###Aliasing Imports
+If you already have package name ```video``` you can use following.
+```go
+package main
 
-# Related
-[govdoext](https://github.com/shamsher31/govdoext)
-[goistext](https://github.com/ferhatelmas/goistext)
-[goisimg](https://github.com/ferhatelmas/goisimg)
+import (
+	"fmt"
+	videoPath "github.com/shamsher31/goisvdo"
+)
 
-# Why
-This package is inspired by [is-video](https://www.npmjs.com/package/is-video) npm module to check if filepath is a video file.
+func main() {
+   fmt.Println(videoPath.Is("./golang.mp4"))
+   // true
+}
+```
 
-# License
+### Related
+[govdoext](https://github.com/shamsher31/govdoext)<br>
+[goistext](https://github.com/ferhatelmas/goistext)<br>
+[goisimg](https://github.com/ferhatelmas/goisimg)<br>
+
+### Why
+This package is inspired by [is-video](https://www.npmjs.com/package/is-video) npm module.
+
+### License
 MIT © [Shamsher Ansari](https://github.com/shamsher31)
