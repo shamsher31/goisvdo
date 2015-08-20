@@ -1,4 +1,7 @@
 # goisvdo
+
+[![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/shamsher31/goisvdo)
+
 Check if filepath is a video file
 
 ### How to install
