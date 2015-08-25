@@ -2,6 +2,6 @@ package video
 
 import "testing"
 
-func TestGet(t *testing.T) {
+func TestIs(t *testing.T) {
 
 }
